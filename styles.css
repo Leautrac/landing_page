@@ -1,0 +1,28 @@
+*{
+    border: 1px solid red;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+li p{
+    max-width: 200px;
+    text-align: center;
+}
+.sectiontwo ul, .sectiontwo h2, .sectionthree,.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sectionone, .sectionfour .container{
+    display: flex;
+    justify-content: space-between;
+}
