@@ -2,6 +2,29 @@
     border: 1px solid red;
 }
 
+body{
+    background-color: #1f2937;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+blockquote{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+button, .call-to-action{
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
 img {
     width: 200px;
     height: auto;
@@ -20,6 +43,18 @@ li p{
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.sectionone, .footer{
+    color: #f9faf8;
+}
+
+.sectiontwo, .sectionfour{
+    background-color: white;
+}
+
+.sectionthree{
+    background-color: #e5e7eb;
 }
 
 .sectionone, .sectionfour .container{
