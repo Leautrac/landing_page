@@ -4,71 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Landing Page</title>
+    <title>Box Test</title>
 </head>
 <body>
-    <div class=sectionone>
-        <div class="topleft">
-            <div class =logo></div>
-            <div class="sign-up">
-                <h1>Awesome Website</h1>
-                <p>Subtext with smaller font and lower contrast</p>
-                <button type="button">Sign up</button>
+    <section class="first-section">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <h1>LOGO</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="presentation">
+                <div class="teasing">
+                    <div><span class="main-title">TITLE</span><br>Text of presentation lorem ipsum bla bla bla</div>
+                    <button>Sign Up</button>
+                </div>
+                <div class="image">
+                    <img src="./img/panorama.jpg" alt="foggy mountains pic">
+                </div>
             </div>
         </div>
-        <div class="topright">
-            <div class="menu">
-                <ul>
-                    <li><a href="linkone"></a></li>
-                    <li><a href="linktwo"></a></li>
-                    <li><a href="linkthree"></a></li>
-                </ul>
-            </div>
-            <div class="placeholder"></div>
-        </div>
-    </div>
-    <div class="sectiontwo">
-        <h2>Some Random Informations</h2>
-        <div class="gallery">
-            <ul>
-                <li>
-                    <img src="./img/arch.jpg" alt="image description">
-                    <p>Subtext under the illustration for the image above</p>
+    </section>
+    <section class="second-section">
+        <div class="title">Here is a random title</div>
+        <div class="list">
+            <ul class="three">
+                <li class="box-one">
+                    <img src="./img/arch.jpg" alt="arch canyon pic">
+                    <div><p>a random text about the beautiful landscapes in the pic above</p></div>
                 </li>
-                <li>
-                    <img src="./img/bryce.jpg" alt="image description">
-                    <p>Subtext under the illustration for the image above</p>
+                <li class="box-two">
+                    <img src="./img/bryce.jpg" alt="bryce canyon pic">
+                    <div><p>a random text about the beautiful landscapes in the pic above</p></div>
+                </liv>
+                <li class="box-three">
+                    <img src="./img/monument.jpg" alt="monument valley pic">
+                    <div><p>a random text about the beautiful landscapes in the pic above</p></div>
                 </li>
-                <li>
-                    <img src="./img/monument.jpg" alt="image description">
-                    <p>Subtext under the illustration for the image above</p>
-                </li>
-                <li>
-                    <img src="./img/zion.jpg" alt="image description">
-                    <p>Subtext under the illustration for the image above</p>
+                <li class="box-four">
+                    <img src="./img/zion.jpg" alt="zion canyon pic">
+                    <div><p>a random text about the beautiful landscapes in the pic above</p></div>
                 </li>
             </ul>
         </div>
-    </div>
-    <div class="sectionthree">
-        <figure>
-            <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure#quotations">
-                Quotes, parts of poems can also be a part of figure.
-            </blockquote>
-            <figcaption>MDN editors</figcaption>
-        </figure>
-    </div>
-    <div class="sectionfour">
-        <div class="container">
-            <div class="call-to-action">
-                <h2>Another Title</h2>
-                <p>Another random text</p>
+    </section>
+    <section class="third-section">
+        <div class="quote-box">
+            <div class="quoteblock">
+                <div class="quote">
+                    "Inspirational quote from a drunkhead poet in a cabin far away from society"
+                </div>
+                <div class="right-align">Author</div>
             </div>
-            <button type="button">Sign up</button>
         </div>
-    </div>
-    <div  class="footer">
+    </section>
+    <section class="fourth-section">
+        <div class="signup-box">
+            <div class="call-to-action">
+                <div class="box-one">Big Fat Title</div>
+                <div class="box-two">Another text to insist on the fact the user should sign up to our freaking awesome site</div>
+            </div>
+            <div class="button">
+                <button type="button">Sign Up</button>
+            </div>
+        </div>
+    </section>
+    <footer>
         <p>Copyright</p>
-    </div>
+    </footer>
 </body>
 </html>
